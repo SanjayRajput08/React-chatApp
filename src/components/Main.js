@@ -5,14 +5,19 @@ function Main() {
     <>
         {/* Page content */}
   <div className="content">
+
   <div className="container">
+  <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Avatar"/>
     <p>Hello. How are you today?</p>
     <span className="time-right">11:00</span>
   </div>
+
   <div className="container darker">
+  <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="Avatar" className='right'/>
     <p>Hey! I'm fine. Thanks for asking!</p>
     <span className="time-left">11:01</span>
   </div>
+
   <input type="text" placeholder="Enter Text Here..." />
   <svg
     xmlns="http://www.w3.org/2000/svg"
